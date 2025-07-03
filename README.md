@@ -11,7 +11,7 @@ or run the "gradle:bootRun" to start the application
 Description of locking strategy
 -
 
-I used the locking mechanism provided by redisson it used the key of the ticket. The lock has a zero wait time so that seconday requests that cannot get the lock will fail immediately. 
+I used the locking mechanism provided by redisson using the ticket id as the key for the lock. The lock has a zero wait time so that secondary requests that cannot get the lock will fail immediately. 
 
 
 AI tool usage and validation steps
